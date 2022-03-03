@@ -141,32 +141,36 @@ a {
 }
 .botton {
   display: flex;
-  padding-top: 3.3rem;
+  padding-top: 3rem;
   align-content: space-between;
 }
 .botton .icons {
   display: flex;
-  padding-right: 10rem;
+  padding-right: 12rem;
 }
 .icons i {
   padding-right: 0.5rem;
-  font-size: 1.25rem;
-  padding-left: 0.5rem;
+}
+.botton .icons p {
+  margin-right: 0.5rem;
 }
 .circle {
   display: flex;
-  font-size: 0.85rem;
+  align-items: center;
+}
+
+.ball {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: yellow;
+  border: 2px solid #837e9f;
 }
 .circle p {
-  padding-left: 0.4rem;
-  padding-top: 0.2rem;
+  padding-left: 0.3rem;
+  font-size: 14px;
 }
-.circle i {
-  color: yellow;
-  font-size: 0.9rem;
-  border-radius: 50%;
-  border: 0.3rem solid rgb(88, 88, 88);
-}
+
 /*---posts----*/
 
 .post-1 {
